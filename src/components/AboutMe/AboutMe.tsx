@@ -1,5 +1,5 @@
 import miPortrait from '../../assets/photos/me.webp';
-import { downloadCV } from './AboutMe.controller'; 
+import { downloadCV } from './AboutMe.controller';
 
 const AboutMe = () => {
   return (

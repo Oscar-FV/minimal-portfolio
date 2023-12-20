@@ -1,0 +1,7 @@
+.btn{
+    @apply px-2 py-1 font-worksans font-semibold transition duration-300 rounded-md
+}
+
+.btn-primary{
+    @apply hover:bg-accent border-2 border-accent text-white bg-black 
+}
