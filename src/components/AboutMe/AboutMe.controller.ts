@@ -1,11 +1,9 @@
-import "../../public/files/CV - Oscar Flores Vázquez.pdf"
+import myCV from"../../assets/files/CV-OscarFlores.pdf" 
 
 export const downloadCV = ( () => {
 
-    const filePath = "../../public/files/CV - Oscar Flores Vázquez.pdf"
-
     const a = document.createElement('a');
-    a.href = filePath;
+    a.href = myCV;
     a.download = 'CV-OscarFlores.pdf';
     document.body.appendChild(a);
     a.click();
