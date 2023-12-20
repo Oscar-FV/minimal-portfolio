@@ -2,6 +2,7 @@ import Logo from './components/Logo/Logo';
 import Container from './components/Container/Container';
 import Tittle from './components/Tittle/Tittle';
 import AboutMe from './components/AboutMe/AboutMe';
+import "./app.css"
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Tittle tittle="About Me" />
         <AboutMe />
       </Container>
-      
+
     </>
   );
 }
