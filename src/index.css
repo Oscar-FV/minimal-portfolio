@@ -10,6 +10,16 @@
     @apply hover:bg-accent border-2 border-accent text-white bg-accent lg:bg-black 
 }
 
+
+li:last-child{
+    @apply px-8 py-2 rounded-full bg-accent text-white font-medium
+}
+
+li:not(:last-child){
+    @apply hidden lg:block text-white font-worksans relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
+}
+
+
 @font-face{
     font-family: newake;
     src: url("/src/assets/fonts/Newake-Font-Demo.otf") format("opentype")
