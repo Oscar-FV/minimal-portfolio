@@ -7,7 +7,7 @@
 }
 
 .btn-primary{
-    @apply hover:bg-accent border-2 border-accent text-white bg-black 
+    @apply hover:bg-accent border-2 border-accent text-white bg-accent lg:bg-black 
 }
 
 @font-face{
