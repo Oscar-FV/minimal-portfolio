@@ -28,7 +28,7 @@ const AboutMe = () => {
           streamline outdated processes.
         </p>
 
-        <div className="flex justify-end lg:px-32">
+        <div className="flex justify-end lg:px-10">
           <button
             className="btn btn-primary  my-5 lg:my-10"
             onClick={downloadCV}

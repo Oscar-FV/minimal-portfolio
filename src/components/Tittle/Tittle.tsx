@@ -4,7 +4,7 @@ interface TittleProps{
 
 const Tittle = ( {tittle}: TittleProps ) => {
   return (
-    <div className="mt-5 mb-1">
+    <div className="my-5 mb-1">
       <h3 className="pl-6 lg:pl-16 font-newake text-3xl lg:text-5xl text-white">
         {tittle}
       </h3>
