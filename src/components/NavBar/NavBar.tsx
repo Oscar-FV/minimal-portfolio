@@ -1,8 +1,9 @@
 import miniLogo from '../../assets/imgs/miniLogo.png'
 
 const NavBar = () => {
+
   return (
-    <nav className="flex justify-between items-center fixed z-10 top-0 bg-black py-3 px-6 lg:px-16 w-full">
+    <nav id="navbar" className="flex justify-between items-center fixed z-10 top-0 bg-black py-3 px-6 lg:px-16 w-full">
       <img src={miniLogo} alt="" className="w-[10%] lg:w-[3rem] cursor-pointer"/>
       <ul className="flex gap-8 justify-end items-center">
         <li className="cursor-pointer">About</li>
