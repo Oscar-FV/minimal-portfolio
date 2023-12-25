@@ -9,38 +9,30 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container className="h-[100vh] font-newake flex flex-col justify-center items-center">
+      <Container className="font-newake flex flex-col justify-center items-center">
         <Logo />
-      </Container>  
+      </Container>
 
-      <Container className=''>
+      <Container className="">
         <Tittle tittle="About Me" />
         <AboutMe />
       </Container>
 
       <Container className="">
         <Tittle tittle="Stack" />
-
-        <div className="px-16 py-5">
-          <p className="text-white text-xl lg:text-xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1">
-          I enjoy crafting minimalist and elegant solutions. While I possess a solid understanding of UX/UI, my true expertise lies in seamlessly constructing business logic through the backend. I find joy in bringing efficiency and functionality to the forefront of every project, ensuring a harmonious blend of aesthetics and robust functionality.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-3 grid-rows-3 gap-4 text-white px-16 py-5">
-            <div className="row-span-3">
+          <div className="px-16 py-5">
+            <div className="flex border border-white min-h-[50vh]">
+              <p className="text-white text-xl lg:text-xl font-worksans lg:h-fit tracking-[2px] flex-1">
+                I enjoy crafting minimalist and elegant solutions that help
+                businesses enhance their outdated processes, bringing a
+                technological twist to their operations.
+              </p>
+              <div className="w-1/4 border border-yellow-300"></div>
               
+              <div className="w-1/4 border border-yellow-300"></div>
             </div>
-            <div className="row-span-2">
-
-            </div>
-            <div className="row-span-2">
-
-            </div>
-        </div>
-    
+          </div>
       </Container>
-
     </>
   );
 }

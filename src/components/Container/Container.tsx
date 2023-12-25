@@ -8,7 +8,7 @@ interface ContainerProps{
 
 const Container = ( {children, className}: ContainerProps ) => {
   return (
-    <div className={`container py-5 ${className}`} >
+    <div className={` py-5 min-h-screen ${className}`} >
       
         {children}
 

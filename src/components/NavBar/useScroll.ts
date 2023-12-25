@@ -13,7 +13,7 @@ export const useScroll = ( targetDiv: string ) => {
           const navBarRect = navBar.getBoundingClientRect();
           const divRect = div.getBoundingClientRect();
   
-          setIsNavBarFixed(navBarRect.bottom >= divRect.top - 100);
+          setIsNavBarFixed(navBarRect.bottom >= divRect.top);
         }
       };
   
