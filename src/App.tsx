@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
+
   return (
     <>
       <NavBar />

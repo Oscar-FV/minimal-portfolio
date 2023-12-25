@@ -1,7 +1,11 @@
   import miPortrait from "../../assets/imgs/me.webp";
+import { useScroll } from "../NavBar/useScroll";
   import { downloadCV } from "./AboutMe.controller";
 
   const AboutMe = () => {
+
+    const { isNavBarFixed } = useScroll("aboutMe");
+
     return (
       <div className="mt-5 mx-8 h-fit lg:h-full flex flex-col-reverse lg:flex-row justify-center items-center lg:items-start">
         <img
@@ -10,9 +14,9 @@
           alt="A Very Talented web Dev"
         />
 
-        <div className="lg:sticky lg:top-0">
-          <div className="w-10/12 lg:w-full lg:sticky lg:space-y-4">
-            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 lg:translate-y-10">
+        <div id="aboutMe" className="lg:sticky lg:top-0">
+          <div className={`w-10/12 lg:w-full lg:sticky lg:space-y-4 lg:transform lg:transition-transform lg:duration-200 ease-in-out ${isNavBarFixed ? 'lg:translate-y-24' : ''}`}>
+            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10">
               Hi! <br />
               My name is Oscar Flores.
               <br />I am a{" "}

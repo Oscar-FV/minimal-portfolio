@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
     <>
-      <div className="h-1/5 flex justify-center items-end xl:pb-20">
+      <div className="h-1/5 flex justify-center items-end">
         <div className="tracking-[6px] w-[12rem] lg:w-[24rem]">
           <h1 className="text-6xl lg:text-9xl h-12 lg:h-24 text-white">
             Oscar
