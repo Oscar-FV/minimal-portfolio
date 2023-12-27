@@ -28,7 +28,7 @@ function App() {
                 technological twist to their operations.
               </p>
               <div className="w-1/4 border border-yellow-300"></div>
-              
+              aaaaaaaa
               <div className="w-1/4 border border-yellow-300"></div>
             </div>
           </div>
