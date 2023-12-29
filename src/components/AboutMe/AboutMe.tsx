@@ -16,7 +16,7 @@ import { useScroll } from "../NavBar/useScroll";
 
         <div id="aboutMe" className="lg:sticky lg:top-0">
           <div className={`w-10/12 lg:w-full lg:sticky lg:space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${isNavBarFixed ? 'lg:translate-y-20' : ''}`}>
-            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10">
+            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
               Hi! <br />
               My name is Oscar Flores.
               <br />I am a{" "}
@@ -33,7 +33,7 @@ import { useScroll } from "../NavBar/useScroll";
               streamline outdated processes.
             </p>
 
-            <div className="flex justify-end lg:px-10">
+            <div className="flex justify-end lg:px-10 xl:px-5">
               <button
                 className="btn btn-primary  my-5 lg:my-10"
                 onClick={downloadCV}
