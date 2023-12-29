@@ -15,31 +15,25 @@ const AboutMe = () => {
 
       <div id="aboutMe" className="lg:sticky lg:top-0">
         <div
-          className={`px-20 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${
+          className={`px-10 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${
             isNavBarFixed ? "lg:translate-y-20" : ""
           }`}
         >
-          <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
+          <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
               I am a <strong className="text-accent font-semibold">
                 software developer </strong> focused on <strong className="text-primary font-semibold">web development.</strong>
             </p>
-            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
-            I studied a computer science degree that helped me discover my
-            passion for the process of creating agile solutions to improve and
-            streamline outdated processes.
+            <p className="text-white text-base  lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
+            I pursued a computer science degree, uncovering a passion for crafting agile solutions to enhance and streamline outdated processes.
             </p>
 
-            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
-            I enjoy spending my free time playing video games, as well as greatly appreciating outdoor spaces
-            </p>
-
-            <p className="text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
-            Usually, I find myself with my headphones on, immersing myself in my own bubble. However, I have a great time collaborating with people on various types of projects, which has provided me with the ability to easily grasp ideas and express my own.
+            <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
+            I often wear headphones, immersing myself in my own world. Yet, I enjoy collaborating on diverse projects, making it easy for me to grasp and express ideas.
             </p>
 
           <div className="flex justify-end lg:px-10 xl:px-20">
             <button
-              className="btn btn-primary my-5 lg:my-10 text-xl"
+              className="btn btn-primary my-5 lg:my-10 text-base lg:text-xl "
               onClick={downloadCV}
             >
               Get my CV
