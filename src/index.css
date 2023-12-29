@@ -19,6 +19,11 @@ li:not(:last-child){
     @apply hidden lg:block text-white font-worksans relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
 }
 
+.section-tittle{
+    font-size: 12rem;
+    line-height: 1;
+}
+
 
 @font-face{
     font-family: newake;
