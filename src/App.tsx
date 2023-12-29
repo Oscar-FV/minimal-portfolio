@@ -1,11 +1,10 @@
-import Logo from './components/Logo/Logo';
-import Container from './components/Container/Container';
-import Tittle from './components/Tittle/Tittle';
-import AboutMe from './components/AboutMe/AboutMe';
-import NavBar from './components/NavBar/NavBar';
-
+import Logo from "./components/Logo/Logo";
+import Container from "./components/Container/Container";
+import Tittle from "./components/Tittle/Tittle";
+import AboutMe from "./components/AboutMe/AboutMe";
+import NavBar from "./components/NavBar/NavBar";
+import { Icon } from "@iconify/react";
 function App() {
-
   return (
     <>
       <NavBar />
@@ -13,25 +12,37 @@ function App() {
         <Logo />
       </Container>
 
-      <Container className="">
+      <Container className="lg:mx-16">
         <Tittle tittle="About Me" />
         <AboutMe />
       </Container>
 
-      <Container className="">
+      <Container className="mx-20 lg:mx-16">
         <Tittle tittle="Stack" />
-          <div className="px-16 py-5">
-            <div className="flex border border-white min-h-[50vh]">
-              <p className="text-white text-xl lg:text-xl font-worksans lg:h-fit tracking-[2px] flex-1">
-                I enjoy crafting minimalist and elegant solutions that help
-                businesses enhance their outdated processes, bringing a
-                technological twist to their operations.
-              </p>
-              <div className="w-1/4 border border-yellow-300"></div>
-              
-              <div className="w-1/4 border border-yellow-300"></div>
+        <div className="py-5">
+          <div className="grid grid-cols-4 gap-4 lg:gap-10">
+            <p className="col-span-4 lg:col-span-2 text-white text-xl lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] mb-8 lg:px-10 xl:pr-5">
+              I enjoy crafting minimalist and elegant solutions that help
+              businesses enhance their outdated processes, bringing a
+              technological twist to their operations.
+            </p>
+            <div className="col-span-2 lg:col-span-1 py-5 gap-5 flex flex-col items-center text-primary text-8xl">
+              <div className="flex gap-20">
+                <Icon icon="uil:react" />
+              </div>
+            </div>
+            <div className="col-span-2 lg:col-span-1 py-5 gap-5 flex flex-col items-center text-primary text-8xl">
+              <div className="flex gap-20">
+                <Icon icon="la:node" />
+                <Icon icon="simple-icons:nestjs" />
+              </div>
+
+              <div className="flex gap-20">
+                <Icon icon="ph:file-sql" />
+              </div>
             </div>
           </div>
+        </div>
       </Container>
     </>
   );
