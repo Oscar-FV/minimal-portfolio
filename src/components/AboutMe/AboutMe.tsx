@@ -6,16 +6,16 @@ const AboutMe = () => {
   const { isNavBarFixed } = useScroll("aboutMe");
 
   return (
-    <div className="mt-5 mx-8 h-fit lg:h-full flex flex-col-reverse lg:flex-row justify-center items-center lg:items-start">
+    <div className="mt-5 h-fit lg:h-full flex flex-col-reverse lg:flex-row justify-center items-center lg:items-start">
       <img
-        className="rounded-xl lg:ml-8 w-10/12 lg:w-2/5 h-10/12 lg:h-full object-cover"
+        className="rounded-xl lg:ml-8 w-10/12 lg:w-2/5 lg:h-full object-cover"
         src={miPortrait}
         alt="A Very Talented web Dev"
       />
 
       <div id="aboutMe" className="lg:sticky lg:top-0">
         <div
-          className={`w-10/12 pr-10 lg:w-full lg:sticky lg:space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${
+          className={`px-20 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${
             isNavBarFixed ? "lg:translate-y-20" : ""
           }`}
         >
