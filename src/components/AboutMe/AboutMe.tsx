@@ -20,8 +20,8 @@ const AboutMe = () => {
           }`}
         >
           <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
-              I am a <strong className="text-accent ">
-                software developer </strong> focused on <strong className="text-primary ">web development.</strong>
+              I am a <strong className="text-accent font-normal">
+                software developer </strong> focused on <strong className="text-primary font-normal">web development.</strong>
             </p>
             <p className="text-white text-base  lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
             I pursued a computer science degree, uncovering a passion for crafting agile solutions to enhance and streamline outdated processes.
