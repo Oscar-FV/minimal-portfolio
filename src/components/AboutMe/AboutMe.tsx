@@ -15,7 +15,7 @@ const AboutMe = () => {
 
       <div id="aboutMe" className="lg:sticky lg:top-0">
         <div
-          className={`px-10 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out ${
+          className={`px-14 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out font-thin ${
             isNavBarFixed ? "lg:translate-y-20" : ""
           }`}
         >
