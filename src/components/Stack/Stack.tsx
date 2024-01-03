@@ -1,13 +1,11 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Tittle from "../Tittle/Tittle";
 import Html from "../CustomIcons/Html";
 import Tailwind from "../CustomIcons/Tailwind";
 
 const Stack = () => {
   return (
     <>
-      <Tittle tittle="Stack" />
-      <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-10 pt-5 lg:px-0 lg:w-full items-center lg:items-start">
+      <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-10 mt-5 lg:px-0 lg:w-full items-center lg:items-start">
         <div className="flex flex-col w-10/12 lg:w-1/2 lg:px-10 xl:pr-5 gap-y-1 lg:gap-y-4">
           <h1 className="text-3xl lg:text-5xl font-worksans font-bold text-white tracking-[4px]">
             What I Do.

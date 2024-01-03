@@ -18,6 +18,7 @@ function App() {
       </Container>
 
       <Container className="lg:mt-28 lg:mx-16">
+        <Tittle tittle="Stack" />
         <Stack />
       </Container>
 
