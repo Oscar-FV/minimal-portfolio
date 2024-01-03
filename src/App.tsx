@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container className="font-newake flex flex-col justify-center items-center">
+      <Container className="font-newake flex flex-col justify-center items-center min-h-screen">
         <Logo />
       </Container>
 
@@ -18,7 +18,7 @@ function App() {
         <AboutMe />
       </Container>
 
-      <Container className="mx-10 lg:mx-16">
+      <Container className="lg:mx-16">
         <Stack />
       </Container>
 
