@@ -13,15 +13,15 @@ const AboutMe = () => {
         alt="A Very Talented web Dev"
       />
 
-      <div id="aboutMe" className="lg:sticky lg:top-0">
+      <div id="aboutMe" className="lg:sticky lg:top-0 w-10/12">
         <div
-          className={`px-14 lg:px-0 w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out font-thin ${
+          className={`w-full lg:sticky space-y-4 lg:transform lg:transition-transform lg:duration-500 ease-in-out font-thin ${
             isNavBarFixed ? "lg:translate-y-20" : ""
           }`}
         >
           <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
-              I am a <strong className="text-accent font-semibold">
-                software developer </strong> focused on <strong className="text-primary font-semibold">web development.</strong>
+              I am a <strong className="text-accent ">
+                software developer </strong> focused on <strong className="text-primary ">web development.</strong>
             </p>
             <p className="text-white text-base  lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
             I pursued a computer science degree, uncovering a passion for crafting agile solutions to enhance and streamline outdated processes.
@@ -31,7 +31,7 @@ const AboutMe = () => {
             I often wear headphones, immersing myself in my own world. Yet, I enjoy collaborating on diverse projects, making it easy for me to grasp and express ideas.
             </p>
 
-          <div className="flex justify-end lg:px-10 xl:px-20">
+          <div className="flex justify-end lg:px-10">
             <button
               className="btn btn-primary my-5 lg:my-10 text-base lg:text-xl "
               onClick={downloadCV}

@@ -7,8 +7,8 @@ const Stack = () => {
   return (
     <>
       <Tittle tittle="Stack" />
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-10 pt-5 px-5 lg:px-0">
-        <div className="flex flex-col lg:w-1/2 mb-8 lg:px-10 xl:pr-5 gap-y-1 lg:gap-y-4">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-10 pt-5 lg:px-0 lg:w-full items-center justify-center">
+        <div className="flex flex-col w-10/12 lg:w-1/2 mb-8 lg:px-10 xl:pr-5 gap-y-1 lg:gap-y-4">
           <h1 className="text-3xl lg:text-5xl font-worksans font-bold text-white tracking-[4px]">
             my mision.
           </h1>
@@ -19,7 +19,7 @@ const Stack = () => {
           </p>
         </div>
         
-        <div className="flex flex-col gap-4 lg:gap-10 lg:w-1/2 lg:pr-10">
+        <div className="flex flex-col gap-4 lg:gap-10 w-10/12 lg:w-1/2 lg:pr-10">
           <h1 className="text-3xl lg:text-5xl font-worksans font-bold text-white tracking-[4px]">
               my digital toolbox.
           </h1>
