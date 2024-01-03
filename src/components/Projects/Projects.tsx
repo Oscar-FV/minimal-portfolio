@@ -1,34 +1,19 @@
-import { Icon } from "@iconify/react/dist/iconify.js"
-import Tittle from "../Tittle/Tittle"
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
     <>
-      <Tittle tittle="Stack" />
-      <div className="grid grid-cols-4 gap-4 lg:gap-10">
-        <p className="col-span-4 lg:col-span-2 text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] mb-8 lg:px-10 xl:pr-5">
-          I enjoy crafting minimalist and elegant solutions that help businesses
-          enhance their outdated processes, bringing a technological twist to
-          their operations.
-        </p>
-        <div className="col-span-2 lg:col-span-1 py-5 gap-5 flex flex-col items-center text-primary text-6xl lg:text-8xl">
-          <div className="flex gap-5">
-            <Icon icon="uil:react" />
-          </div>
-        </div>
-        <div className="col-span-2 lg:col-span-1 py-5 gap-5 flex flex-col items-center text-primary text-6xl lg:text-8xl">
-          <div className="flex gap-5">
-            <Icon icon="la:node" />
-            <Icon icon="simple-icons:nestjs" />
-          </div>
+      <div className="flex justify-center">
+        <div className="w-10/12 lg:w-full h-[100rem] lg:h-[40rem] grid grid-cols-5 grid-rows-5 gap-4">
 
-          <div className="flex gap-20">
-            <Icon icon="ph:file-sql" />
-          </div>
+          <ProjectItem className="col-span-5 lg:col-span-3 lg:row-span-3" projectImage="bg-bento1" projectName="project 1" projectDescription="Project Description"/>
+          <ProjectItem className="col-span-5 lg:col-span-3 lg:row-span-2 lg:col-start-3 lg:row-start-4" projectImage="bg-bento2" projectName="project 2" projectDescription="Project Description"/>
+          <ProjectItem className="col-span-5 lg:col-span-2 lg:row-span-2 lg:col-start-1 lg:row-start-4" projectImage="bg-bento3" projectName="project 3" projectDescription="Project Description"/>
+          <ProjectItem className="col-span-5 lg:col-span-2 lg:row-span-3 lg:col-start-4 lg:row-start-1" projectImage="bg-bento4" projectName="project 4" projectDescription="Project Description"/>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

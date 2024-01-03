@@ -14,6 +14,12 @@ export default {
         primary: '#ADA9D0',
         secondary: '#362F76',
         accent: '#6559D0'
+      },
+      backgroundImage: {
+        'bento1': "url('/src/assets/imgs/bento1.webp')",
+        'bento2': "url('/src/assets/imgs/bento2.webp')",
+        'bento3': "url('/src/assets/imgs/bento3.webp')",
+        'bento4': "url('/src/assets/imgs/bento4.webp')",
       }
     },
     container: {

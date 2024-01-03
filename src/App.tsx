@@ -4,6 +4,7 @@ import Tittle from "./components/Tittle/Tittle";
 import AboutMe from "./components/AboutMe/AboutMe";
 import NavBar from "./components/NavBar/NavBar";
 import Stack from "./components/Stack/Stack";
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <>
@@ -17,14 +18,15 @@ function App() {
         <AboutMe />
       </Container>
 
-      <Container className="lg:mt-28 lg:mx-16">
+      <Container className="lg:mt-20 lg:mx-16">
         <Tittle tittle="Stack" />
         <Stack />
       </Container>
 
-      {/* <Container className="mx-10 lg:mx-16">
+      <Container className="lg:mt-20 lg:mx-16">
+        <Tittle tittle="Projects" />
         <Projects />
-      </Container> */}
+      </Container>
     </>
   );
 }
