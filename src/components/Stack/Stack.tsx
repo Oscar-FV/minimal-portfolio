@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Html from "../CustomIcons/Html";
-import Tailwind from "../CustomIcons/Tailwind";
+import Html from "./CustomIcons/Html";
+import Tailwind from "./CustomIcons/Tailwind";
 
 const Stack = () => {
   return (
@@ -10,7 +10,7 @@ const Stack = () => {
           <h1 className="text-3xl lg:text-5xl font-worksans font-bold text-white tracking-[4px]">
             What I Do.
           </h1>
-          <p className="text-white font-thin text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px]">
+          <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px]">
             Craft minimalist and elegant solutions that help businesses
             enhance their outdated processes, bringing a technological twist to
             their operations.
