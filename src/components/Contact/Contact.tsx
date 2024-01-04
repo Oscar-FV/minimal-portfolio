@@ -17,7 +17,7 @@ const Contact = () => {
 
 
   return (
-    <div className="flex flex-col lg:flex-row mx-14 lg:mx-0 lg:gap-x-16 gap-y-10 lg:px-0 lg:w-full">
+    <div className="flex flex-col lg:flex-row mx-10 lg:mx-0 lg:gap-x-16 gap- lg:gap-y-10 lg:px-0 lg:w-full">
       <div className="flex flex-col justify-center lg:w-[70%] gap-y-2 lg:gap-y-4">
         <h1 className="font-worksans text-4xl lg:text-6xl font-semibold text-white">
           Want to work togheter?
@@ -28,7 +28,7 @@ const Contact = () => {
         <ContactForm/>
       </div>
 
-      <div className="flex flex-col gap-y-16 grow text-white font-worksans tracking-[2px]">
+      <div className="flex flex-col gap-y-8 lg:gap-y-16 mt-10 grow text-white font-worksans tracking-[2px]">
         
         <div>
             <h3 className="text-3xl text-accent font-semibold mb-1"> Contact Details </h3>
