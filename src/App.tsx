@@ -50,7 +50,7 @@ function App() {
           ScrollTrigger.create({
             trigger: sectionColor,
             scroller: ".main",
-            start: "top 50%",
+            start: "top 30%",
             onEnter: () => animateBackgroundColor(currentBgColor),
             onLeaveBack: () => animateBackgroundColor(prevBgColor),
           });
@@ -70,7 +70,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="main h-screen overflow-hidden"> 
+      <div className="main h-screen"> 
         <Container
           className="font-newake flex flex-col justify-center items-center min-h-screen"
           bgColor="#09090D"

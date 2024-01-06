@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.1.1",
+    "@types/gsap": "^3.0.0",
     "@types/luxon": "^3.3.8",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.37",
