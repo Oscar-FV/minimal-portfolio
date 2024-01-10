@@ -18,20 +18,21 @@ function App() {
   useEffect(() => {
 
     const scrollColorElems = document.querySelectorAll("section");
-    console.log(scrollColorElems)
 
     scrollColorElems.forEach((colorSection, i) => {
       const color = colorSection.getAttribute("data-bgColor");
+      const textColor = colorSection.getAttribute("data-textColor");
       const prevColor = i === 0 ? "" : scrollColorElems[i - 1].getAttribute("data-bgColor");
+      const prevTextColor = i === 0 ? "" : scrollColorElems[i - 1].getAttribute("data-textColor");
 
-      if( color && prevColor ){
+      if( color && prevColor && textColor && prevTextColor ){
 
         ScrollTrigger.create({
           trigger: colorSection,
           start:'top 50%',
           end:'bottom 80%',
-          onEnter: () => gsap.to("main", { backgroundColor: color, overwrite: 'auto' }),
-          onLeaveBack: () => gsap.to("main", { backgroundColor: prevColor, overwrite: 'auto' }),
+          onEnter: () => gsap.to("main", { backgroundColor: color, color: textColor, overwrite: 'auto' }),
+          onLeaveBack: () => gsap.to("main", { backgroundColor: prevColor, color: prevTextColor, overwrite: 'auto' }),
         });
         
       }
@@ -42,7 +43,7 @@ function App() {
   return (
     <>
     
-      <main className="bg-[#09090D]">
+      <main className="bg-[#101014] text-white">
       <NavBar />
 
       <Container
@@ -51,23 +52,23 @@ function App() {
         <Logo />
       </Container>
 
-      <Container className="xl:mx-32 lg:mx-10" bgColor="#09090D">
-        <Tittle tittle="About Me" />
+      <Container className="xl:mx-32 lg:mx-10 min-h-screen" bgColor="#101014" textColor="white">
+        <Tittle tittle="About Me" color="text-white" />
         <AboutMe />
       </Container>
 
-      <Container className="lg:mt-20 xl:mx-32 lg:mx-10" bgColor="#FFFFFF">
-        <Tittle tittle="Stack" />
+      <Container className="lg:mt-32 xl:mx-32 lg:mx-10 h-[65vh]" bgColor="#ADA8BE" textColor="black">
+        <Tittle tittle="Stack" color="text-black"/>
         <Stack />
       </Container>
 
-      <Container className="lg:mt-20 xl:mx-32 lg:mx-10" bgColor="#09090D">
-        <Tittle tittle="Projects" />
+      <Container className="lg:my-20 xl:mx-32 lg:mx-10 min-h-screen" bgColor="#ADA8BE" textColor="black">
+        <Tittle tittle="Projects" color="text-black"/>
         <Projects />
       </Container>
 
-      <Container className="lg:mt-16 xl:mx-32 lg:mx-10" bgColor="#FFFFFF">
-        <Tittle tittle="Contact" />
+      <Container className="lg:mt-16 xl:mx-32 lg:mx-10" bgColor="#101014" textColor="white">
+        <Tittle tittle="Contact" color="text-white"/>
         <Contact />
       </Container>
 
