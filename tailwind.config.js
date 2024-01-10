@@ -11,9 +11,9 @@ export default {
         'newake': ['Newake', 'sans-serif'], 
       },
       colors: {
-        primary: '#ADA9D0',
-        secondary: '#362F76',
-        accent: '#6559D0'
+        primary: '#332F56',
+        secondary: '#232367',
+        accent: '#684771'
       },
       backgroundImage: {
         'bento1': "url('/src/assets/imgs/bento1.webp')",

@@ -5,12 +5,12 @@ import Tailwind from "./CustomIcons/Tailwind";
 const Stack = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-10 mt-5 lg:px-0 lg:w-full items-center lg:items-start">
+      <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-10 mt-5 lg:px-0 lg:w-full items-center lg:items-start pb-28">
         <div className="flex flex-col w-10/12 lg:w-1/2 lg:px-10 xl:pr-5 gap-y-1 lg:gap-y-4">
-          <h1 className="text-3xl lg:text-5xl font-worksans font-bold text-white tracking-[4px]">
+          <h1 className="text-3xl lg:text-5xl font-worksans font-bold tracking-[4px] text-black">
             What I Do.
           </h1>
-          <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px]">
+          <p className="text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px]">
             Craft minimalist and elegant solutions that help businesses
             enhance their outdated processes, bringing a technological twist to
             their operations.

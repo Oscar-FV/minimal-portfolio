@@ -21,14 +21,14 @@ const AboutMe = () => {
         >
           <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5">
               I am a <strong className="text-accent font-semibold">
-                software developer </strong> focused on <strong className="text-primary font-semibold">web development.</strong>
+                software developer </strong> focused on <strong className="text-accent font-semibold">web development.</strong>
             </p>
             <p className="text-white text-base  lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
             I pursued a computer science degree, uncovering a passion for crafting agile solutions to enhance and streamline outdated processes.
             </p>
 
             <p className="text-white text-base lg:text-2xl font-worksans lg:h-fit whitespace-pre-wrap tracking-[2px] flex-1 lg:px-10 xl:pr-5"    >
-            I often wear headphones, immersing myself in my own world. Yet, I enjoy collaborating on diverse projects, making it easy for me to grasp and express ideas.
+            I enjoy collaborating on diverse projects, making it easy for me to grasp and express ideas.
             </p>
 
           <div className="flex justify-end lg:px-10">

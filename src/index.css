@@ -7,7 +7,7 @@
 }
 
 .btn-primary{
-    @apply hover:bg-accent border-2 border-accent text-white bg-accent lg:bg-black 
+    @apply hover:bg-accent border-2 border-accent  bg-accent lg:bg-inherit 
 }
 
 
@@ -16,7 +16,7 @@ li:last-child{
 }
 
 li:not(:last-child){
-    @apply hidden lg:block text-white font-worksans relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
+    @apply hidden lg:block font-worksans relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
 }
 
 .section-tittle{
